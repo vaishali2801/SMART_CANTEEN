@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart canteen</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+<body>
+     <header class="z-3">
+    <div class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+               <img src="./img/logo.png" style="height: 130px;width: auto;">
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#first">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse container" id="first">
+                <ul class="ms-auto navbar-nav nav-underline gap-3">
+                    <li class="nav-item">
+                        <a href="" class="nav-link  fw-bold text-hover">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link  fw-bold text-hover">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link  fw-bold text-hover">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link  fw-bold text-hover">PAYMENT</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a href="" class="nav-link  fw-bold text-hover">CONTACT</a>
+                    </li> 
+                   
+                </ul>
+                <div class="box d-flex gap-3 px-1 ">
+                    <h2><i class="ri-search-line"></i></h2>
+                  <button class="button-57" role="button"><i class="ri-shopping-cart-2-line fs-4"></i><span class="text"> ORDER NOW</span><span>View Order Fast</span></button>
+                  <!-- <button class="btn bg-orange text-light-1"><i class="ri-shopping-cart-2-line fs-4"></i> ORDER NOW</button> -->
+                    <button class="button-42 fs-5 bg-blue text-light-1 border-none" role="button" data-bs-toggle="modal" data-bs-target="#pop">Sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ </header>
+ <section>
+    <div class="modal fade" id="pop" data-bs-backdrop="static">
+         <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Sign In</h2>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>email:</p>
+                    <input type="email" placeholder="Email or Mobile Number" class="my-1"/><br/>
+                    <p>password:</p>
+                    <input type="password" placeholder="Password" class="my-1"/><br/>
+                    <br/>
+                    <p class="display-7">OR</p>
+                    <button class="btn bg-secondary text-white">Use a sign-in code </button>
+                    <p class="display-7">Forget password?</p>
+                    <div class="box">
+                    <div class="checkbox-wrapper-1">
+                    <input id="example-1" class="substituted" type="checkbox" aria-hidden="true" />
+                    <label for="example-1"> <b>Remember Me</b></label>
+                    </div>
+                    <p>New to Netflix?&nbsp;&nbsp;<a href="">Sign up now.</a></p>
+                    <p class="display-7">This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href=""> Learn more.</a><p>
+                    </div> 
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary m-1" data-bs-toggle="modal" data-bs-target="#pop2">Login In </button>
+                    <button class="btn btn-info">Resister now</button>
+                </div>
+            </div>
+         </div> 
+   </div>
+ </section>
+ <section>
+    <div class="modal fade" id="pop2" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Login</h1>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>username:</p>
+                    <input type="text" placeholder="Enter your name">
+                    <p>password:</p>
+                    <input type="password" placeholder="Enter your password" name="" id="">
+                    <p>or</p>
+                </div>
+                <div class="modal-footer">
+                    <button class=" w-100 btn btn-secondary "> <i class="ri-google-fill"></i> &nbsp;Sign-in with google</button>
+                    <button class=" w-100 btn btn-secondary "> <i class="ri-facebook-circle-fill"></i></i> &nbsp;Sign-in with facebook</button>
+                    <button class=" w-100 btn btn-secondary "> <i class="ri-twitter-fill"></i></i> &nbsp;Sign-in with twitter</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ </section>
+    <section class="" style="background-image:url(./img/bg1.jpg);background-repeat: no-repeat; background-size: cover;width: 100%;height: 1139px;">
+        <div class="container pt-5 ">
+            <div class="row">
+                <div class="col-lg-6 pt-5 mt-5">
+                    <h2 class="display-1 ls-1 mb-3 text-light mt-5 pt-5 fw-bold"> Where <b class="text-org">Every</b> Meal Feels Like <b class="text-org"> Home</b>
+                    </h2>
+                    <p class="text-light fs-5 pt-3 fw-1">Welcome to Smart Canteen — where every meal is more than just food. Discover delightful cuisines, enjoy quick digital ordering, and create unforgettable moments in a warm and welcoming space.</p>
+                    <div class="row my-5 text-center">
+
+                        <div class="col-4">
+                            <div class="d-flex flex-wrap">
+                                <p class="fs-1 fw-bold lh-sm mb-0 text-light">30+&nbsp;</p>
+                                <p class="text-uppercase mb-0 text-light mt-2 fs-5">Product Varieties</p>
+                            </div>
+                        </div>
+                        <div class="col-4 ">
+                            <div class="d-flex flex-wrap">
+                                <p class="fs-1 fw-bold lh-sm mb-0 text-light">500+</p>
+                                <p class="text-uppercase  mb-0 text-light mt-2 fs-5">Happy Customers</p>
+                            </div>
+                        </div>
+                        <div class="col-4 ">
+                            <div class="d-flex flex-wrap">
+                                <p class="fs-1 fw-bold lh-sm mb-0 text-light mx-2">10+&nbsp;</p>
+                                <p class="text-uppercase mb-0 text-light mt-2 fs-5">Store Locations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
