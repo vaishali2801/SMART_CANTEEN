@@ -1,3 +1,9 @@
+.body{
+  background-color: #ecd8b7e7;
+}
+.bg-org{
+  background-color:#EEDCBE !important ;
+}
 .container{
     max-width: 1500px !important;
 }
@@ -18,6 +24,18 @@
 }
 .bg-blue{
     background-color: #4F200D !important;
+}
+.ri-star-fill{
+  font-size: 20px;
+}
+.ri-star-half-line{
+  font-size: 20px;
+}
+.btn-hover:hover{
+ box-shadow: #ef7722b0 0px 5px 15px;;
+}
+.fs-7{
+  font-size: 20px !important;
 }
 .fw-1{
     font-weight:500;
